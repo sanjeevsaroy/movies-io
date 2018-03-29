@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*
+*
+* HEADER
+*
+*/
+
+header {
+  background-color: #1D110A;
+  height: 75px;
+  display: flex;
+  color: #EEE;
+}
+
+.header-left, .header-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  justify-content: flex-end;
+}
+
+.download-link {
+  color: #4A4A4A;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #EEE;
+  padding: 12px 25px;
+  border-radius: 50px;
+}
+
+.app-logo {
+  width: 37.5px;
+  margin-right: 15px;
+}
+
+/*
+*
+* MAIN
+*
+*/
+
+.jumbotron {
+  background-color: #8C1D23;
+  padding: 125px 0;
+  color: #EEE;
+}
+
+.jumbotron-left, .jumbotron-right {
+  display: flex;
+}
+
+.jumbotron-left {
+  width: 45%;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.jumbotron-right {
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-screenshot {
+  width: 271px;
+  height: 544px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  border-radius: 35px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 2em;
+  font-weight: lighter;
+}
+
+.google-play-store-btn img {
+  width: 131px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/*
+*
+* FEATURE COLUMNS
+*
+*/
+
+.columns {
+  background-color: #EEE;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 27%;
+  margin: 5% 3.16%;
+}
+
+h2 {
+  text-align: justify;
+  margin-top: 0;
+  height: 75px;
+  color: #951B08;
+}
+
+/*
+*
+* FOOTER
+*
+*/
+footer {
+  background-color: #333;
+  color: #EEE;
+}
+
+.copyright {
+  padding: 15px 3.16%;
+}
