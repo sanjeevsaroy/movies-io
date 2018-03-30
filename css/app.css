@@ -159,6 +159,11 @@ footer {
     order: 1;
   }
 
+  .app-screenshot {
+    height: 500px;
+    width: auto;
+  }
+
   .jumbotron-right {
     width: 100%;
     flex-direction: row;
@@ -174,6 +179,45 @@ footer {
     width: 100%;
     margin: 10% 25%;
     text-align: center;
+  }
+
+  .feature h2 {
+    text-align: center;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 611px) {
+  .container {
+    width: 90%;
+  }
+
+  .jumbotron-left {
+    width: 40%;
+    margin-right: 10%;
+  }
+
+  .app-screenshot {
+    height: 400px;
+    width: auto;
+  }
+
+  .jumbotron-right h1 {
+    font-size: 36px;
+  }
+
+  .jumbotron-right h3 {
+    font-size: 16px;
+  }
+
+  .columns {
+    padding: 50px 0;
+  }
+
+  .feature {
+    width: 100%;
+    text-align: center;
+    margin: 6% 15%;
   }
 
   .feature h2 {
