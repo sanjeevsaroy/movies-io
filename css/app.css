@@ -232,3 +232,31 @@ footer {
     margin: 5% 3.16%;
   }
 }
+
+@media screen and (min-width: 1080px) {
+  .container {
+    width: 1000px;
+  }
+
+  .app-screenshot {
+    height: 544px;
+  }
+
+  .jumbotron-right h1 {
+    font-size: 50px;
+  }
+
+  .jumbotron-right h3 {
+    font-size: 18px
+  }
+
+  .feature {
+    text-align: left;
+    width: 25%;
+    margin: 5% 4%;
+  }
+
+  .feature h2 {
+    text-align: justify;
+  }
+}
